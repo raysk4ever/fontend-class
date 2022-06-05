@@ -1,0 +1,46 @@
+3 selectors css 
+
+tag < class < id
+
+1 => tag selector
+
+2 => class selector
+
+3 => id selector
+
+
+------------------------------------------
+
+Job=>
+web development =>
+
+1 => Frontend dev ==> website UI => HTML CSS JAVAScript => Basic
+
+2 => Backend dev ==> backend website + database + Arctch => JAVAScript => Advance
+
+3 => Full Stack Dev =>  Frontend + backend => HTML CSS JAVAScript (BASIC + Advance)
+
+4 => Devops => Arctch
+
+Frontend UI Lib Frameworks =>
+ReactJs Lib, Facebook
+Angluar Frameworks, Google
+VueJs Lib, Devleoper
+
+
+Backend
+
+NodeJs (JAVAScript)
+Java (Java)
+.Net (c#)
+Django, Flask (python)
+Lavel (php)
+Database  => Sql, MySql, Mongodb
+
+
+
+ReactJs, NodeJs, Mongodb
+MERN => Mongodb + Express + React + NodeJS
+MEAN =>  Mongodb + Express + Angluar + NodeJS
+
+

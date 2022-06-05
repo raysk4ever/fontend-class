@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  background-color: pink;
+  height: 100vh;
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.left {
+  /* width: 100px;
+  height: 100px; */
+  background-color: white;
+  padding: 30px;
+  /* flex: 1; */
+}
+.right {
+  background-color: black;
+  color: wheat;
+  padding: 30px;
+  /* flex: 1; */
+}

@@ -1,0 +1,26 @@
+css => 3 selector
+
+selectorName {
+  propertyName: propertyValue;
+  propertyName: propertyValue;
+  propertyName: propertyValue;
+}
+
+id > class > tag
+1st => tag selector
+tagName {
+
+}
+
+2nd => class selector
+
+.className {
+
+}
+
+3rd => id selector
+
+#idName {
+
+}
+

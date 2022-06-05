@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --padding: 10px;
+  --padding-2x: 20px;
+  --primary-color: #212229;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------CONTAINER------------------ */
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+/* ------------------LEFT------------------ */
+.container .left {
+  background-color: white;
+  flex: 1;
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  gap: 20px;
+}
+
+
+.container .left .logo {
+  height: 140px;
+  overflow: hidden;
+}
+
+.container .left .menu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding);
+}
+
+.container .left .menu .menu-item {
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+}
+
+.container .left .menu .menu-item:hover {
+  background-color: #eee;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.container .left .menu .menu-item img {
+  margin-right: 10px;
+}
+
+.container .right {
+  background-color: var(--primary-color);
+  flex: 5;
+  padding: var(--padding-2x);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-2x);
+}
+
+/* ------------------RIGHT------------------ */
+/* ------------------RIGHT HEADER------------------ */
+.right .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.right .header .h-left span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.right .header .h-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.right .header .h-right .search-bar {
+  padding: var(--padding);
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.right .header .h-right .search-bar img {
+  width: 18px;
+  height: 18px;
+} 
+.right .header .h-right .search-bar input {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+
+.right .header .h-right .profile-pic img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* ------------------RIGHT STATS------------------ */
+
+
+.right .stats {
+  display: flex;
+  gap: 10px
+}
+.right .stats > div {
+  flex: 1;
+  height: 100px;
+  border-radius: 20px;
+}
+.stats-red {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding);
+}
+.stats-item-img {
+  border-radius: 50%;
+}
+.stats-greeen {
+  background-color: green;
+}
+.stats-left {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 10px;
+  /* justify-content: space-evenly; */
+}
+.stats-left .text-big {
+  font-size: 50px;
+}

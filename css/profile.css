@@ -1,0 +1,15 @@
+.top-heading {
+  color: brown;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-pic {
+  width: 200px;
+  height: 300px;
+}
+
+.name {
+  color: cadetblue;
+  font-size: 30px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CRM Demo</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div>
+      <div>
+        <span>Id</span>
+        <input id="id" type="text" placeholder="Id">
+      </div>
+      <div>
+        <span>Name</span>
+        <input id="name" type="text" placeholder="Name">
+      </div>
+      <div>
+        <span>Email</span>
+        <input id="email" type="text" placeholder="Email">
+      </div>
+      <div>
+        <span>Mobile</span>
+        <input id="mobile" type="tel" placeholder="Mobile">
+      </div>
+      <button onclick="handleAdd()">Add</button>
+      <button onclick="handleDelete()">Delete</button>
+      <button onClick="handleSearch()">Search</button>
+      <button onClick="handleModify()">Modify</button>
+  </div>
+  <div id="customer-list">
+    <div class="customer-header">
+      <span>Id</span>
+      <span>Name</span>
+      <span>Email</span>
+      <span>Mobile</span>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

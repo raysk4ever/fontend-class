@@ -1,0 +1,13 @@
+.customer-item {
+  display: flex;
+  width: 271px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.customer-header {
+  display: flex;
+  width: 271px;
+  justify-content: space-between;
+  margin: 10px 0px;
+  font-weight: bold;
+}
